@@ -1,0 +1,31 @@
+name: deliveryapp_customer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # 🌍 Google Maps & Location
+  google_maps_flutter: ^2.5.3
+  geolocator: ^11.0.0
+
+  # 🌐 HTTP requests (for Google Directions & Distance Matrix API)
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/home_bg.jpg
